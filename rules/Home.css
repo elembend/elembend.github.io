@@ -1,0 +1,62 @@
+.u-section-1 {
+  background-image: url("images/elembend.png");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1217px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 400;
+  font-family: Minecraft;
+  margin: 21px 0 1px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1003px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 768px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 210px;
+    margin-right: 210px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 576px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 363px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+}@font-face {
+  font-family: 'Minecraft';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Minecraft.ttf);
+}
